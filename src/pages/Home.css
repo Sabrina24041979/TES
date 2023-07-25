@@ -1,18 +1,14 @@
 body{
-    background-color: rgb(216, 213, 213);
-    font-family: Arial, sans-serif;
     line-height: 1.6;
     margin:0;
     padding:0;
 }
 
 section {
-  background-color: #f0f0f0;
+
   text-align: center;
   padding: 20px;
 }
-
-
 
 .carousel-container{
     width: 80%;
@@ -21,17 +17,17 @@ section {
     position:relative;
   }
   
-.carousel {
+.carousel-inner {
     display: flex;
     transition: transform 0.3s ease-in-out; overflow: hidden;
     position:relative;
   }
   
-.slide {
+.carousel-item {
     flex: 0 0 100%;
   }
 
-.slide img {
+.carousel-item img {
     width: 100%;
     height: auto;
   } 
