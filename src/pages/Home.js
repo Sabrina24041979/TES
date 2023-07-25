@@ -1,9 +1,11 @@
 const Home = () => {
+    
     return(
-        <main>
-            <h1>bonjour</h1>
-        </main>
-    );
-}
+        <section>
+        <h1>Home</h1>
+        </section>
 
-export default Home;
+    );
+    }
+
+    export default Home;
