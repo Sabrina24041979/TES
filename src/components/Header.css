@@ -4,6 +4,10 @@ header {
     color: white;
 }
 
+nav {
+    padding: 10%;
+}
+
 nav img {
     width: 220px;
 }

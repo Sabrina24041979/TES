@@ -1,7 +1,6 @@
 import chevron from './chevron.png';
 import './Footer.css';
 
-
 const Footer = () => {
     return(
         <footer className="nav-bg-color container-fluid">
