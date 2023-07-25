@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@400;500;600;700&display=swap');
+
+header {
+    color: white;
+}
+
+nav {
+    padding: 10%;
+}
+
+nav img {
+    width: 220px;
+}
+.nav-bg-color {
+    background-color: #020623;
+}
+.menu-link {
+    color: lightgrey;
+}
+.menu-link:hover {
+    color: #fbae4b;
+}
+
+
+@media screen and (max-width: 772px) {
+    nav img {
+        width: 150px;
+    }
+}

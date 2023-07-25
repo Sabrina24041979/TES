@@ -1,33 +1,63 @@
-import {
-    Link
-} from "react-router-dom";
+import chevron from './chevron.png';
+import './Footer.css';
 
-const Header = () => {
+const Footer = () => {
     return(
-        <header>
-            <nav className="navbar navbar-expand-lg bg-body-tertiary">
-                <div className="container-fluid">
-                    <Link className="navbar-brand" to="/"></Link>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
-                    </button>
-                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li className="nav-item m-3">
-                            <Link to="/" className="nav-link">Home</Link>
-                        </li>
-                        <li className="nav-item m-3">
-                            <Link to="/galerie" className="nav-link">Galerie</Link>
-                        </li>
-                        <li className="nav-item m-3">
-                            <Link to="/contact" className="nav-link">Contact</Link>
-                        </li>                        
+        <footer className="nav-bg-color container-fluid">
+            <section className="backToTop">
+            <a href="#top"><img src={chevron} alt="Remonter"/></a>
+                <a href="#top">Remonter en haut</a>
+            </section>
+            <section className="sommaire">
+            <div>
+                    <ul>
+                        <li><span className="list-title">Projet d'achat</span></li>
+                        <li><a href="#">Nos véhicules neufs</a></li>
+                        <li><a href="#">Offres du moment</a></li>
+                        <li><a href="#">Tous nos modèles</a></li>
                     </ul>
-                    </div>
                 </div>
-            </nav>
-        </header>
+
+                <div>
+                    <ul>
+                        <li><span className="list-title">Technologie</span></li>
+                        <li><a href="#">Notre vision de la mobilité</a></li>
+                        <li><a href="#">Nos solutions de recharges</a></li>
+                        <li><a href="#">Services personnalisés</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <ul>
+                        <li><span className="list-title">Service Client</span></li>
+                        <li><a href="#">Prendre rendez-vous SAV</a></li>
+                        <li><a href="#">Offres après-vente</a></li>
+                        <li><a href="#">Campagne de rappel</a></li>
+                        <li><a href="#">Notice d'utilisation</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <ul>
+                        <li><span className="list-title">Qui sommes-nous ?</span></li>
+                        <li><a href="#">L'histoire de JGR</a></li>
+                        <li><a href="#">Nous rejoindre</a></li>
+                        <li><a href="#">Sport Automobile</a></li>
+                        <li><a href="#">Boutique et collections</a></li>
+                    </ul>
+                </div>
+            </section>
+            <section className="final m-3 p-3">
+                <div>© 2023 JGR, tous droits réservés. Logo by <a href="https://fr.freepik.com/vecteurs-libre/creation-logo-jaguar-degrade_34627061.htm#query=jaguar&position=17&from_view=search&track=sph">Freepik</a>.</div>
+                <div><a href="#">Mentions légales</a></div>
+                <div>
+
+                </div>           
+            </section>
+
+        </footer>
+
     );
 }
 
-export default Header;
+export default Footer;

@@ -1,0 +1,19 @@
+.card {
+    width: 50rem;    
+  }
+  
+  .gallerypic {
+    display: grid;
+    justify-content: center;
+    margin-top: 3%;      
+  }
+
+  .galtitle{
+    font-family: fantasy;
+    font-size: 50px;
+    margin-top: 2%;
+    
+   
+  }
+
+  
