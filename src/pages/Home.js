@@ -14,8 +14,8 @@ const Home = () => {
 
         </section>
       
-        <div className="carousel-container" className="carousel slide" >
-
+        <div className="carousel-container" >
+git 
             <div className="carousel" data-bs-ride="carousel">
 
                 <div className="slide">
