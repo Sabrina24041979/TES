@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@400;500;600;700&display=swap');
+
+header {
+    color: white;
+}
+
+nav img {
+    width: 220px;
+}
+
+.nav-bg-color {
+    background-color: #020623;
+}
+
+nav a {
+    color: #fbae4b;
+}
+
+.brandname {
+    font-family: 'Teko';
+    font-size: 60px;
+}
