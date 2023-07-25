@@ -8,7 +8,7 @@ import './Header.css';
 const Header = () => {
     return(
         <header>
-            <nav className="navbar navbar-dark bg-dark navbar-expand-lg bg-body-tertiary p-0">
+            <nav className="navbar menu-link navbar-dark bg-dark navbar-expand-lg bg-body-tertiary p-0">
                 <div className="container-fluid nav-bg-color">
                     <Link className="navbar-brand m-3" to="/"><img src={logo} alt="Logo"/></Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,10 +19,10 @@ const Header = () => {
                         <li className="nav-item m-3">
                             <Link to="/" className="nav-link">Accueil</Link>
                         </li>
-                        <li className="nav-item m-3">
+                        <li className="nav-item m-3 menu-link">
                             <Link to="/about" className="nav-link">Galerie</Link>
                         </li>
-                        <li className="nav-item m-3">
+                        <li className="nav-item m-3 menu-link">
                             <Link to="/portfolio" className="nav-link">Contact</Link>
                         </li>                        
                     </ul>

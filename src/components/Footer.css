@@ -8,6 +8,7 @@ footer {
 footer a {
     text-decoration: none;
     color: lightgrey;
+    transition: 0.1s ease-in;
 }
 
 a:hover {
@@ -16,7 +17,11 @@ a:hover {
 
 .sommaire {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    gap: 50px;
+    flex-wrap: wrap;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .sommaire ul {
@@ -24,27 +29,48 @@ a:hover {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    padding: 0;
 }
 
 .sommaire ul li {
     font-size: 14px;
 }
 
-
 .list-title {
     font-size: 22px;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #fbae4b;
     padding-bottom: 8px;
 }
 
 .final {
     display: flex;
-    justify-content: space-evenly;
-    border-top: 1px solid white;
+    justify-content: center;
+    border-top: 1px solid lightgrey;
+    gap: 10px;
+    flex-wrap: wrap;
 }
 
 .backToTop {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     margin: 20px;
+}
+
+@media screen and (max-width: 772px) {
+    footer {
+        text-align: center;
+    }
+
+    .sommaire {
+        justify-content: center;
+    }
+
+
+}
+
+footer img {
+    width: 50px;
+    transform: rotate(-90deg);
 }

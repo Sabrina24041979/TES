@@ -7,16 +7,19 @@ header {
 nav img {
     width: 220px;
 }
-
 .nav-bg-color {
     background-color: #020623;
 }
-
-nav a {
+.menu-link {
+    color: lightgrey;
+}
+.menu-link:hover {
     color: #fbae4b;
 }
 
-.brandname {
-    font-family: 'Teko';
-    font-size: 60px;
+
+@media screen and (max-width: 772px) {
+    nav img {
+        width: 150px;
+    }
 }
